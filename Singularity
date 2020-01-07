@@ -4,7 +4,7 @@ From: continuumio/miniconda3
 # sudo singularity build snakemake Singularity
 
 %files
-    /snakevirome/*
+    snakevirome/*
     snakevir.scif
     Snakefile
     config.yaml

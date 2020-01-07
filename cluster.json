@@ -1,0 +1,43 @@
+{
+	"__default__": {
+		"queue": "short.q",
+		"cluster": "-pe parallel_smp 2 -l h_vmem=20G"
+	},
+	"Map_On_host": {
+		"queue": "normal.q",
+		"cluster": "-pe parallel_smp 5 -l h_vmem=20G"
+	},
+	"Map_On_bacteria": {
+		"queue": "normal.q",
+		"cluster": "-pe parallel_smp 5 -l h_vmem=20G"
+	},
+	"Megahit_Assembly": {
+		"queue": "bigmem.q",
+		"cluster": "-pe parallel_smp 10 -l h_vmem=200G"
+	},
+	"Cap3_Assembly": {
+		"queue": "bigmem.q",
+		"cluster": "-pe parallel_smp 5 -l h_vmem=200G"
+	},
+	"Index_Assembly": {
+		"queue": "normal.q"
+	},
+	"Map_On_Assembly": {
+		"queue": "normal.q",
+		"cluster": "-pe parallel_smp 5 -l h_vmem=50G"
+	},
+	"Blast_contigs_on_nr_vir": {
+		"queue": "bigmem.q",
+		"cluster": "-pe parallel_smp 10 -l h_vmem=200G"
+	},
+	"Blast_contigs_on_nr": {
+		"queue": "bigmem.q",
+		"cluster": "-pe parallel_smp 20 -l h_vmem=200G"
+	},
+	"Build_array_coverage_nr": {
+		"queue": "normal.q"
+	},
+	"complete_taxo": {
+		"queue": "normal.q"
+	}
+}

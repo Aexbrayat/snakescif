@@ -4,7 +4,6 @@ From: continuumio/miniconda3
 # sudo singularity build snakemake Singularity
 
 %files
-    snakevirome/*
     snakevir.scif
     Snakefile
     config.yaml
@@ -22,7 +21,7 @@ From: continuumio/miniconda3
 
     # Install scif and scif-apps
     /opt/conda/bin/pip install scif
-    /opt/conda/bin/scif install snakevir.scif
+    /opt/conda/bin/scif install /snakevir.scif
 
     # Install snakemake
     /opt/conda/bin/pip install snakemake==4.4.0

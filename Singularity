@@ -7,6 +7,8 @@ From: continuumio/miniconda3:4.3.27
     snakevir.scif
     Snakefile
     config.yaml
+    cluster.json
+    
 
 %environment
     PATH=/opt/conda/bin:$PATH

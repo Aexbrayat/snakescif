@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: continuumio/miniconda3
+From: continuumio/miniconda3:4.3.27
 
 # sudo singularity build snakemake Singularity
 

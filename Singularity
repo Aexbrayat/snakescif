@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: continuumio/miniconda3:4.7.12
+From: continuumio/miniconda3
 
 # sudo singularity build snakemake Singularity
 
@@ -26,7 +26,7 @@ From: continuumio/miniconda3:4.7.12
     /opt/conda/bin/scif install /snakevir.scif
 
     # Install snakemake
-    /opt/conda/bin/pip install snakemake==4.4.0
+    /opt/conda/bin/pip install snakemake==5.7.4
     /opt/conda/bin/pip install docutils==0.14
     /opt/conda/bin/pip install biopython
     /opt/conda/bin/pip install pandas

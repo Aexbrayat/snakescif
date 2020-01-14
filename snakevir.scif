@@ -13,7 +13,7 @@
     fi
 
 %appinstall cutadapt
-    /opt/conda/bin/conda install -c bioconda cutadapt=2.7
+    /opt/conda/bin/conda install -c bioconda cutadapt=2.8
 %apprun cutadapt
    cd $SCIF_DATA
    exec cutadapt "$@"
